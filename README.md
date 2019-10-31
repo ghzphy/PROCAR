@@ -9,9 +9,11 @@ To initialize calculations with the magnetic moment parallel to a chosen vector 
 
 
 MAGMOM = x y z   ! local magnetic moment in x,y,z
+
 SAXIS =  0 0 1   ! quantisation axis parallel to z
 
 or
 
 MAGMOM = 0 0 total_magnetic_moment   ! local magnetic moment parallel to SAXIS
+
 SAXIS =  x y z   ! quantization axis parallel to vector (x,y,z)
